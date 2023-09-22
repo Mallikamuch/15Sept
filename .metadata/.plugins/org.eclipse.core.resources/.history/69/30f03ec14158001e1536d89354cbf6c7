@@ -1,0 +1,17 @@
+package InheritanceDemo;
+
+public class Homepage extends Base {
+		// TODO Auto-generated method stub
+public void Homepage test()
+{
+	System.out.println("Test for Homepage");
+}
+public static void main(String[] args) {
+	Homepage obj = new Homepage();
+	obj.openbrowser(chrome);
+	obj.login("admin","admin");
+	obj.HomepageTest();
+	obj.Logout();
+	}
+
+}

@@ -1,0 +1,20 @@
+package ExceptionPractices;
+import java.util.InputMismatchException;
+public class ThrowskeywordDemo {
+	public void div(int a,int b)
+	{
+		if(b==0)
+		{ 
+			throw new InputMismatchException();
+		}
+		else {
+			int c
+		}
+	}
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

@@ -1,0 +1,25 @@
+package collectionsDemo;
+import java.util.InputMismatchException;
+public class ThrowDemo {
+public void div (int a,int b)
+{
+	if( b==0)
+{
+	throw new InputMismatchException();
+}
+else
+{
+	int c=a/b;
+	System.out.println("The division of 2 number is:"+c);
+}
+}
+	private int b() {
+	// TODO Auto-generated method stub
+	return 0;
+}
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}
