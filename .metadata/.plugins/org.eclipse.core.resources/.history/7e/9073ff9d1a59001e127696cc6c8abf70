@@ -1,0 +1,11 @@
+package LessonendProject;
+
+public class rectangle {
+	public rectangle(int l,int w)
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

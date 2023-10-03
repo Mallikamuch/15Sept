@@ -1,0 +1,21 @@
+package LessonendProject;
+
+import java.util.Scanner;
+public class Project1 {
+	public void Rectangle() {
+		Scanner scan = new Scanner(System.in);
+		System.out.println("Enter the length");
+		int l= scan.nextInt();
+		System.out.println("Enter the width");
+		int w= scan.nextInt();
+		Project1 obj=new Project1();
+		obj.area(l,w);
+	}
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}
+
